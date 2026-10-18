@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Goonsaw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="viewport">
+        <div id="screen-stack">
+            <section id="screen-c" class="screen">
+                <div class="screen-content">
+                    <div id="char-select-container">
+                        <div id="first">
+                            <div id="species">Experiment</div>
+                            <div id="row2">
+                                <span>4/4 species unlocked</span>
+                                <span>Character</span>
+                            </div>
+                            <div id="character-padder">
+                                <div id="character">
+                                    - The original artificial hybrid, and the base for all other species. All others are in one way or another, related to it.<br />- Tend to be quite skinny, medium height.<br />- Average in just about every way. Intelligence, skill, endurance. Mentally sensitive in comparison.<br />- Their darker fur makes them better at hiding, though not by much. Supports their cowardly nature.<br />- Less social than others, and odd-minded. Can act a bit mischievous at times. Good at cracking jokes.<br />- Being the first to arrive, they are very high in numbers. Low ranking cannon fodder.<br />- Canine.<br /><br />The one we all come from?<br />Probably not natural.
+                                </div>
+                            </div>
+                            <div id="gameplay-label">Gameplay</div>
+                            <div id="gameplay-container">
+                                <div id="left">
+                                    <div id="gp-first">
+                                        <div>
+                                            <div id="aim">Reload speed:100%</div>
+                                            <div id="reload">Reload speed:100%</div>
+                                        </div>
+                                        <div>
+                                            <div id="move">Reload speed:100%</div>
+                                            <div id="health">Reload speed:100%</div>
+                                        </div>
+                                    </div>
+                                    <div id="gp-2nd">
+                                        The base for almost all other species
+                                    </div>
+                                </div>
+                                <div id="right">
+                                    <span id="advanced-label">Advanced info</span>
+                                    <span id="lung">Lung capacity: 100%</span>
+                                    <span id="notice">Advanced info</span>
+                                    <span id="jump">Advanced info</span>
+                                    <span id="run">Advanced info</span>
+                                    <span id="kick">Advanced info</span>
+                                    <span id="swim">Advanced info</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="second">
+                            <div id="sawian-image">
+                                <img id="saw" src="sawians/1.png">
+                            </div>
+                            <div id="lower-right-char">
+                                <button data-screen="b">
+                                    BACK TO LEVEL
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="screen-b" class="screen">
+                <div class="screen-content">
+                    <div id="level-select-container">
+                        <div id="top-select-container">
+                            <div id="left">
+                                (A)
+                            </div>
+                            <div id="level-number">
+                                <div id="number">
+                                    1
+                                </div>
+                                <div id="name-level">
+                                    Basic Training
+                                </div>
+                            </div>
+                            <div id="right">
+                                (D)
+                            </div>
+                        </div>
+                        <div id="middle-select-container">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatem quibusdam eos soluta pussy pariatur nihil dicta sunt, veritatis ipsam quos, quidem, quia saepe minima? Quia non commodi obcaecati porro!<br>
+                            -Z
+                        </div>
+                        <div id="bottom-select-container">
+                            <button data-screen="c">
+                                CHARACTER SELECT
+                            </button>
+                            <div>
+                                Press SPACE to start
+                            </div>
+                            <button data-screen="a">
+                                BACK TO TITLE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="screen-a" class="screen">
+                <div class="screen-content">
+                    <h1 id="title">[Gunsaw]</h1>
+                    <div id="main-menu-box">
+                        <button data-screen="b">
+                            PLAY
+                        </button>
+                        <button data-screen="d">
+                            SETTINGS
+                        </button>
+                        <button>
+                            QUIT
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="screen-d" class="screen">
+                <div class="screen-content">
+                    <h1>Settings screen is on an infedinate hiatus</h1>
+                    <button data-screen="a">
+                        Back
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+```
